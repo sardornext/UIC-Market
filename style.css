@@ -426,11 +426,10 @@ main {
 .card p {
   text-align: left;
   font-size: 12px;
-  
 }
 .card .line {
-  border-bottom: 1px solid ;
-  border-color:rgba(255, 255, 255, 0.06);;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.06);
   margin: 16px 0;
 }
 
@@ -447,8 +446,6 @@ main {
   gap: 8px;
 }
 
-
-
 .plans .card .inside-card {
   margin: 16px 20px 48px 20px;
 }
@@ -458,25 +455,24 @@ main {
 }
 
 .card-list .line {
-  margin: 20px 20px ;
+  margin: 20px 20px;
 }
 
 /*Footer*/
 
-footer{
-  /* background: #1E1E20; */
-  background: #19191B;
+/* footer {
+  background: #19191b;
   width: 1440px;
   height: 426px;
 }
 
 footer ul li {
-  display:inline;
+  display: inline;
   margin-top: 54px;
   margin-left: 124px;
 }
 
-.social-media{
+.social-media {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -484,4 +480,82 @@ footer ul li {
   margin-left: 124px;
   justify-content: space-between;
   margin-right: 12px;
+} */
+
+/* partners */
+
+.partners__text {
+  color: var(--main, #00a795);
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  margin-top: 64px;
+  margin-left: 225px;
 }
+
+.partners__subtext {
+  color: var(--1, #fff);
+  font-family: Gilroy;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 12px;
+  margin-left: 225px;
+}
+
+.partners__icons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  margin-left: 225px;
+  margin-right: 225px;
+  background-color: #19191B;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00a795;
+}
+
+footer{
+  background-color: #19191B;
+}
+.footer_text{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Greycliff CF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+text-transform: uppercase;
+margin-left: 124px;
+margin-top: 64px;
+gap: 48px;
+cursor: pointer;
+}
+
+.footer_text:hover{
+  color: #00a795;
+}
+
+.footer__socials{
+  display: flex;
+}
+
+.social__icon{
+border: #242426 solid 3px;
+border-radius: 50%;
+gap: 20px;
+padding: 25px;
+}
+
+
